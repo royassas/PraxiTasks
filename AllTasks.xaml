@@ -37,7 +37,6 @@
                 <DataGridTemplateColumn.CellEditingTemplate>
                     <DataTemplate>
                             <DatePicker SelectedDate="{Binding Startdate,  Converter={StaticResource dateConverter}}" />
-                            <Button Content="X" />
                         </DataTemplate>
                 </DataGridTemplateColumn.CellEditingTemplate>
                 </DataGridTemplateColumn>
